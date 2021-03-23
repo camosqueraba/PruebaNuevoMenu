@@ -124,7 +124,7 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
+        background-color: rgb(110,110,110);
         /*same background color of navbar*/
         background-position: center top;
     }
@@ -159,7 +159,7 @@ body {
 }
 
 .navTrigger i {
-    background-color: #fff;
+    background-color: rgb(110,110,110);
     border-radius: 2px;
     content: '';
     display: block;
@@ -338,7 +338,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: rgb(110,110,110);
 }
 
 
