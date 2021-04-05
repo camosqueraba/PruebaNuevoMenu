@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Prueba Nuevo Menu</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_principal2.css">
+    <title>Document</title>
 </head>
 <body>
-	<nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="#">Perfect Body</a>
-                <!--<img src="images/favicon.png" alt="logo_PerfectBody">-->
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="#">Anuncios</a></li>
-                    <li><a href="#">Cumpleaños</a></li>
-                    <li><a href="#">Protocolos COVID</a></li>
-                    <li id="boton_menu"><a href="#">Menú</a></li>
-                </ul>
-            </div>
-            
-
-            <span class="navTrigger">
-                <i>hghh</i>
-                <i>hfghfgh</i>
-                <i>gfhfghfgh</i>
-            </span>
-        </div>
-        <div>
-            <h1>Hola</h1>
-            <h1>Hola</h1>
-            <h1>Hola</h1>
-        </div>
-    </nav>
-
-    <section class="home">
-    </section>
+    <div class="contenedor_fondo cabecera">
+        <header class="encabezado">
+            <nav class="barra_navegacion">
+                <div class="logo">
+                    <a href="#">Perfect Body</a>
+                    <!--<img src="images/favicon.png" alt="logo_PerfectBody">-->
+                </div>
+                <div id="enlaces_contenedor" class="enlaces_contenedor">
+                    <ul class="enlaces">
+                        <li><a href="#">Anuncios</a></li>
+                        <li><a href="#">Cumpleaños</a></li>
+                        <li><a href="#">Protocolos COVID</a></li>
+                        <li id="boton_menu"><a href="#">Menú</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+    </div>
     <div style="height: 1000px">
         <!-- just to make scrolling effect possible -->
 			<h2 class="myH2">What is this ?</h2>
@@ -55,21 +44,6 @@
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
 			</p>
     </div>
-
-<!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
-
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
+    
 </body>
 </html>
