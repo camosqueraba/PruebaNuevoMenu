@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Prueba Nuevo Menu</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="index_styles.css">
 </head>
 <body>
 	<nav class="nav">
@@ -18,25 +18,79 @@
                     <li><a href="#">Anuncios</a></li>
                     <li><a href="#">Cumpleaños</a></li>
                     <li><a href="#">Protocolos COVID</a></li>
-                    <li id="boton_menu"><a href="#">Menú</a></li>
+                    <li id="boton_menu"><a href="#">Menú</a>
+                        <div class="contenedor_opciones_menu">
+                            <ul class="dropdown-content">
+                                <li class="enlaces_menu">
+                                    <a  href="#">Admisiones</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Activos Fijos</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Citas</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Contratación</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">SIOS</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Orden Externa</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">RX-Oviyam</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Gerencial</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Incidencias</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Gestion Documental</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Inspección</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">C.P.C.PBMC</a>
+                                </li>
+                                <hr>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Mipres SISPRO</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Radiologos S.A.S</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Patologos Asociados</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Encuesta Colmena</a>
+                                </li>
+                                <li class="enlaces_menu">
+                                    <a  href="#">Fichas INS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </li>
                 </ul>
             </div>
-            
-
-            <span class="navTrigger">
-                <i>hghh</i>
-                <i>hfghfgh</i>
-                <i>gfhfghfgh</i>
-            </span>
-        </div>
-        <div>
-            <h1>Hola</h1>
-            <h1>Hola</h1>
-            <h1>Hola</h1>
-        </div>
+        
     </nav>
 
     <section class="home">
+
+        <div>hola</div>
+        <div>hola</div>
+        <div>hola</div>
+        <div>hola</div>
+        <div>hola</div>
+        <div>hola</div>
+
     </section>
     <div style="height: 1000px">
         <!-- just to make scrolling effect possible -->
@@ -61,15 +115,16 @@
     <script src="scripts.js"></script>
 
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
+   
 </body>
 </html>
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
