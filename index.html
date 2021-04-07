@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Prueba Nuevo Menu</title>
-	<link rel="stylesheet" href="index_styles.css">
+	<link rel="stylesheet" href="css/index_styles.css">
 </head>
 <body>
 	<nav class="nav">
@@ -15,65 +15,51 @@
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="#">Anuncios</a></li>
-                    <li><a href="#">Cumpleaños</a></li>
-                    <li><a href="#">Protocolos COVID</a></li>
+                    <li><a href="#anuncios">Anuncios</a></li>
+                    <li><a href="#cumpleanos">Cumpleaños</a></li>
+                    <li><a href="#protocolos_covid">Protocolos COVID</a></li>
                     <li id="boton_menu" onclick="clickMenu()"><a href="#">Menú</a>
                         <div id="contenedor_opciones_menu" class="contenedor_opciones_menu">
-                            <ul class="dropdown-content">
-                                <li class="enlace_menu">
-                                    <a  href="#">Admisiones</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Activos Fijos</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Citas</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Contratación</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">SIOS</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Orden Externa</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">RX-Oviyam</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Gerencial</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Incidencias</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Gestion Documental</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Inspección</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">C.P.C.PBMC</a>
-                                </li>
-                                <hr>
-                                <li class="enlace_menu">
-                                    <a  href="#">Mipres SISPRO</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Radiologos S.A.S</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Patologos Asociados</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Encuesta Colmena</a>
-                                </li>
-                                <li class="enlace_menu">
-                                    <a  href="#">Fichas INS</a>
-                                </li>
-                            </ul>
+                            <a class="enlace_menu" href="http://192.168.1.95/ADMISIONES/index.aspx" target="_blank">
+                                Admisiones
+                            </a>
+                            <a class="enlace_menu" href="http://192.168.1.95/ActivosFijos/index.aspx" target="_blank">
+                                Activos Fijos</a>
+                            <a class="enlace_menu" href="http://192.168.1.95/CITAS/index.aspx">
+                                Citas</a>
+                            <a class="enlace_menu" href="http://192.168.1.95/contratacion/Index.aspx" target="_blank">
+                                Contratación</a>
+                            <a class="enlace_menu" href="http://192.168.1.95/SIOS/" target="_blank">
+                                SIOS</a>
+                            <a class="enlace_menu" href="http://192.168.1.95/ORDENES/index.aspx" target="_blank">
+                                Orden Externa</a>
+                            <a class="enlace_menu" href="http://192.168.1.100:8080/oviyam2/" target="_blank">
+                                RX-Oviyam</a>
+                            <a class="enlace_menu" href="http://192.168.1.95/gerencial/index.aspx" target="_blank">
+                                Gerencial</a>
+                            <a class="enlace_menu" href="http://192.168.1.52:8686/Incidencias/public/login" target="_blank">
+                                Incidencias</a>
+                            <a class="enlace_menu" href="http://192.168.1.52:8686/Gestion_Documental/public/login" target="_blank">
+                                Gestion Documental</a>
+                            <a class="enlace_menu" href="http://192.168.1.52:8686/Inspeccion_perfect_Body/public/login" target="_blank">
+                                Inspección</a>
+                            <a class="enlace_menu" href="http://192.168.1.52:8686/SST_Perfect-Body/public/" target="_blank">
+                                C.P.C.PBMC</a>
+                            <hr>
+                            <a class="enlace_menu" href="https://mipres.sispro.gov.co/MIPRESNOPBS/Login.aspx" target="_blank">
+                                Mipres SISPRO</a>
+                            <a class="enlace_menu" href="https://imagenes.rras-sas.com/viewer/index.php" target="_blank">
+                                Radiologos S.A.S</a>
+                            <a class="enlace_menu" href="https://resultados.patologosasociados.com/" target="_blank">
+                                Patologos Asociados</a>
+                            <a class="enlace_menu" href="https://www.colmenaseguros.com/Paginas/EncuestaCovid.aspx" target="_blank">
+                                Encuesta Colmena</a>
+                            <a class="enlace_menu" href="https://drive.google.com/drive/folders/15VjXdXO1VjGVTE-TJrNMcfFSWxHn741r?usp=sharing" target="_blank">
+                                Fichas INS
+                            </a>
+                            
+
+                            
                         </div>
                         
                     </li>
@@ -82,17 +68,12 @@
         
     </nav>
 
-    <section class="home">
-
-        <div>hola</div>
-        <div>hola</div>
-        <div>hola</div>
-        <div>hola</div>
-        <div>hola</div>
-        <div>hola</div>
-
+    <section class="home" >
+        <div class="ejemploZindex" >hola</div>
     </section>
-    <div style="height: 1000px">
+    
+    
+    <section id="anuncios" style="height: 1000px">
         <!-- just to make scrolling effect possible -->
 			<h2 class="myH2">What is this ?</h2>
 			<p class="myP">This is a responsive fixed navbar animated on scroll</p>
@@ -108,15 +89,24 @@
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
 			</p>
-    </div>
+    </section>
 
-<!-- Jquery needed -->
+    <section id="cumpleanos">
+        cumpleanos
+
+    </section>
+
+    <section id="protocolos_covid">
+        protocolos COVID
+    </section>
+
+    <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script src="index_scripts.js"></script>
-</body>
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script src="js/index_scripts.js"></script>
+    </body>
 </html>
 <script>
     $(window).scroll(function() {
