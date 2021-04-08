@@ -125,20 +125,58 @@ body {
 
 .home {
     width: 100%;
-    height: 100vh;
-    background-image: url(images/fondo_perfect.jpg);
+    height: 610px;
+    background-image: url(../images/fondo_perfect.jpg);
     background-position: center top;
 	background-size:cover;
+    margin-bottom: 64px;
+}
+
+.seccion_pagina{
+
+   /* margin-top: 120px;*/
+    height: 550px;
+}
+
+#anuncios{
+    
+    background-color: violet;
 }
 
 #cumpleanos{
-
-    height: 500px;
+   
+    background-color: cadetblue;
+   
 }
 
-#protocolos_covid{
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    display: inline-block;
+  }
+  
+  .imagen_card{
+    height: 100px;
+    width: 30%;
+}
+  .imagen-carousel{
+      height: 550px;
+      width: 100%;
+  }
+  .control-carousel
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
 
-    height: 500px;
+#protocolos_covid{
+    margin-top: 65px;
+    background-color: yellow;
+    height: 400px;
 }
 
 .navTrigger {
