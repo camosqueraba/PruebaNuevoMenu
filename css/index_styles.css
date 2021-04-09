@@ -99,26 +99,27 @@ body {
     width: auto;
     height: 500px;
     /*overflow-y: scroll;*/
+    background-color: rgb(110,110,110);
   }
 
-  .enlace_menu {
-    display: block;
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 12px;
-   
-  }
+.enlace_menu {
+display: block;
+color: black;
+padding: 5px;
+text-decoration: none;
+font-size: 12px;
 
-  #boton_menu:hover > div{
-    visibility: visible;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+}
+
+#boton_menu:hover > div{
+visibility: visible;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
 /* Home section */
@@ -156,25 +157,34 @@ body {
     display: inline-block;
   }
   
-  .imagen_card{
-    height: 100px;
-    width: 30%;
+.imagen_card{
+height: 100px;
+width: 30%;
 }
-  .imagen-carousel{
-      height: 550px;
-      width: 100%;
-  }
-  .control-carousel
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+
+.contenido-slider{
+    display: inline;
+    width: 30%;
+    background-color: blue;
+}
+
+.imagen-slider{
+    height: 550px;
+    width: 70%;
+}
   
-  .container {
-    padding: 2px 16px;
-  }
+  
+.control-carousel
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+padding: 2px 16px;
+}
 
 #protocolos_covid{
-    margin-top: 65px;
+    padding-top: 65px;
     background-color: yellow;
     height: 400px;
 }
